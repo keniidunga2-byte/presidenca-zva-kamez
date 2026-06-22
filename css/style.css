@@ -504,4 +504,51 @@ body{
 
 .featured-school{
   border:2px solid var(--gold);
+}.portal-links{
+  padding:90px 0 30px;
+  background:var(--light);
+}
+
+.portal-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+}
+
+.portal-card{
+  background:white;
+  padding:34px;
+  border-radius:26px;
+  text-decoration:none;
+  box-shadow:0 18px 45px rgba(7,31,61,.10);
+  border:1px solid rgba(212,160,23,.18);
+  transition:.3s;
+}
+
+.portal-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 25px 65px rgba(7,31,61,.16);
+}
+
+.portal-card span{
+  color:var(--gold);
+  font-weight:bold;
+  font-size:18px;
+}
+
+.portal-card h3{
+  color:var(--navy);
+  margin:18px 0 10px;
+  font-size:25px;
+}
+
+.portal-card p{
+  color:var(--muted);
+  line-height:1.7;
+}
+
+@media(max-width:900px){
+  .portal-grid{
+    grid-template-columns:1fr;
+  }
 }
