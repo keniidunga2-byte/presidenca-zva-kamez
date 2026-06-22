@@ -457,4 +457,51 @@ body{
   .leader-card img{
     height:420px;
   }
+}.schools-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:24px;
+}
+
+.school-card{
+  background:white;
+  padding:28px;
+  border-radius:24px;
+  text-align:center;
+  box-shadow:0 16px 40px rgba(7,31,61,.10);
+  border:1px solid rgba(212,160,23,.16);
+  transition:.3s;
+}
+
+.school-card:hover{
+  transform:translateY(-8px);
+}
+
+.school-logo{
+  width:90px;
+  height:90px;
+  margin:0 auto 20px;
+  border-radius:50%;
+  background:#f3f4f6;
+  border:2px dashed #d4a017;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#9ca3af;
+  font-weight:bold;
+}
+
+.school-card h3{
+  color:var(--navy);
+  font-size:20px;
+  margin-bottom:12px;
+}
+
+.school-card p{
+  color:var(--muted);
+  line-height:1.6;
+}
+
+.featured-school{
+  border:2px solid var(--gold);
 }
