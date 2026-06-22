@@ -1,113 +1,223 @@
 <!DOCTYPE html>
 <html lang="sq">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rrjeti i Qeverive të Nxënësve | ZVA Kamëz</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-  <header class="header">
-    <div class="logo-box">
-      <img src="images/logo.png" alt="Logo ZVA Kamëz">
+<header class="site-header">
+  <div class="container nav-container">
+    <a href="#" class="brand">
+      <img src="images/logo.png" alt="Logo e Rrjetit">
       <div>
-        <h2>Rrjeti i Qeverive të Nxënësve</h2>
+        <strong>Rrjeti i Qeverive të Nxënësve</strong>
         <span>ZVA Kamëz</span>
       </div>
-    </div>
+    </a>
 
-    <nav>
-      <a href="#">Kryefaqja</a>
-      <a href="#">Rreth Nesh</a>
-      <a href="#">Struktura</a>
-      <a href="#">Shkollat</a>
-      <a href="#">Lajmet</a>
-      <a href="#">Kontakt</a>
+    <nav class="nav">
+      <a href="#about">Rreth Nesh</a>
+      <a href="#presidency">Presidenca</a>
+      <a href="#schools">Shkollat</a>
+      <a href="#news">Lajmet</a>
+      <a href="#contact">Kontakt</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <span class="badge">Portali Zyrtar</span>
-      <h1>RRJETI I QEVERIVE TË NXËNËSVE</h1>
-      <h3>ZVA KAMËZ</h3>
-      <p>Së bashku ndërtojmë udhëheqësit e së ardhmes përmes përfaqësimit, bashkëpunimit dhe qytetarisë aktive.</p>
+<main>
 
-      <div class="buttons">
-        <a href="#" class="btn primary">Mëso më shumë</a>
-        <a href="#" class="btn secondary">Na kontakto</a>
-      </div>
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <span class="eyebrow">Portali Zyrtar</span>
+    <h1>Rrjeti i Qeverive të Nxënësve</h1>
+    <h2>ZVA Kamëz</h2>
+    <p>
+      Zëri i nxënësve, forca e ndryshimit. Një rrjet që bashkon 24 shkolla
+      për lidership, përfaqësim dhe qytetari aktive.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#about" class="btn btn-gold">Mëso më shumë</a>
+      <a href="#contact" class="btn btn-outline">Na kontakto</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="stats">
-    <div>
-      <h2>24</h2>
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat-card">
+      <h3>24</h3>
       <p>Shkolla pjesëmarrëse</p>
     </div>
-    <div>
-      <h2>500+</h2>
+    <div class="stat-card">
+      <h3>500+</h3>
       <p>Nxënës të përfaqësuar</p>
     </div>
-    <div>
-      <h2>1</h2>
+    <div class="stat-card">
+      <h3>1</h3>
       <p>Rrjet i bashkuar</p>
     </div>
-  </section>
-<section class="about">
-  <div class="section-title">
-    <span>Rreth Rrjetit</span>
-    <h2>Kush Jemi?</h2>
-    <p>Rrjeti i Qeverive të Nxënësve – ZVA Kamëz bashkon përfaqësuesit e nxënësve nga 24 shkolla, duke nxitur lidershipin, bashkëpunimin dhe pjesëmarrjen aktive në jetën shkollore.</p>
   </div>
+</section>
 
-  <div class="about-grid">
-    <div class="card">
-      <h3>Misioni</h3>
-      <p>Të fuqizojmë zërin e nxënësve dhe të krijojmë mundësi për lidership, përfaqësim dhe ndryshim pozitiv.</p>
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-heading">
+      <span>Rreth Rrjetit</span>
+      <h2>Kush Jemi?</h2>
+      <p>
+        Rrjeti i Qeverive të Nxënësve – ZVA Kamëz bashkon përfaqësuesit e nxënësve
+        nga shkollat pjesëmarrëse për të nxitur bashkëpunimin, përfaqësimin dhe
+        përfshirjen aktive në jetën shkollore.
+      </p>
     </div>
 
-    <div class="card">
-      <h3>Vizioni</h3>
-      <p>Një komunitet shkollor ku çdo nxënës ndihet i dëgjuar, i përfaqësuar dhe i përfshirë.</p>
-    </div>
-
-    <div class="card">
-      <h3>Vlerat</h3>
-      <p>Përgjegjësi, bashkëpunim, transparencë, qytetari aktive dhe respekt.</p>
+    <div class="cards-grid">
+      <div class="info-card">
+        <h3>Misioni</h3>
+        <p>Të fuqizojmë zërin e nxënësve dhe të krijojmë mundësi për lidership e ndryshim pozitiv.</p>
+      </div>
+      <div class="info-card">
+        <h3>Vizioni</h3>
+        <p>Një komunitet shkollor ku çdo nxënës ndihet i dëgjuar, i përfaqësuar dhe i vlerësuar.</p>
+      </div>
+      <div class="info-card">
+        <h3>Vlerat</h3>
+        <p>Përgjegjësi, transparencë, bashkëpunim, respekt dhe qytetari aktive.</p>
+      </div>
     </div>
   </div>
 </section>
-<section class="leadership" id="leadership">
-  <div class="section-title">
-    <span>Presidenca</span>
-    <h2>Struktura Drejtuese</h2>
-    <p>Ekipi drejtues që përfaqëson dhe koordinon Rrjetin e Qeverive të Nxënësve – ZVA Kamëz.</p>
-  </div>
 
-  <div class="leaders-grid">
-    <div class="leader-card">
+<section class="section president-message">
+  <div class="container message-grid">
+    <div class="message-image">
       <img src="images/president.png" alt="Krenar Dunga">
-      <h3>Krenar Dunga</h3>
-      <h4>Gjimnazi “Ibrahim Rugova”</h4>
-      <p>President Lokal</p>
     </div>
-
-    <div class="leader-card">
-      <img src="images/ergi.png" alt="Ergi Senko">
-      <h3>Ergi Senko</h3>
-      <h4>Shkolla “Angela Merkel”</h4>
-      <p>Zëvendëspresidente e Parë</p>
-    </div>
-
-    <div class="leader-card">
-      <img src="images/rona.png" alt="Rona Vata">
-      <h3>Rona Vata</h3>
-      <h4>Shkolla “Niko Hoxha”</h4>
-      <p>Zëvendëspresidente e Dytë</p>
+    <div class="message-text">
+      <span>Mesazhi i Presidentit</span>
+      <h2>Një rrjet për zërin dhe fuqinë e nxënësve</h2>
+      <p>
+        Presidenca e Rrjetit të Qeverive të Nxënësve – ZVA Kamëz synon të krijojë
+        një hapësirë ku nxënësit përfaqësohen me dinjitet, bashkëpunojnë mes shkollave
+        dhe marrin pjesë aktivisht në nisma që sjellin ndikim pozitiv në komunitet.
+      </p>
+      <h4>Krenar Dunga</h4>
+      <p class="role">President Lokal</p>
     </div>
   </div>
 </section>
+
+<section class="section presidency" id="presidency">
+  <div class="container">
+    <div class="section-heading">
+      <span>Presidenca</span>
+      <h2>Struktura Drejtuese</h2>
+      <p>Ekipi drejtues që përfaqëson dhe koordinon Rrjetin e Qeverive të Nxënësve – ZVA Kamëz.</p>
+    </div>
+
+    <div class="leaders-grid">
+      <article class="leader-card">
+        <img src="images/president.png" alt="Krenar Dunga">
+        <div class="leader-content">
+          <h3>Krenar Dunga</h3>
+          <h4>Gjimnazi “Ibrahim Rugova”</h4>
+          <p>President Lokal</p>
+        </div>
+      </article>
+
+      <article class="leader-card">
+        <img src="images/ergi.png" alt="Ergi Senko">
+        <div class="leader-content">
+          <h3>Ergi Senko</h3>
+          <h4>Shkolla “Angela Merkel”</h4>
+          <p>Zëvendëspresidente e Parë</p>
+        </div>
+      </article>
+
+      <article class="leader-card">
+        <img src="images/rona.png" alt="Rona Vata">
+        <div class="leader-content">
+          <h3>Rona Vata</h3>
+          <h4>Shkolla “Niko Hoxha”</h4>
+          <p>Zëvendëspresidente e Dytë</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section schools" id="schools">
+  <div class="container">
+    <div class="section-heading">
+      <span>Shkollat</span>
+      <h2>24 Shkollat Pjesëmarrëse</h2>
+      <p>Seksioni do të plotësohet me emrat e shkollave, përfaqësuesit dhe aktivitetet e tyre.</p>
+    </div>
+
+    <div class="placeholder-box">
+      <h3>Së shpejti</h3>
+      <p>Këtu do të shfaqet lista e plotë e 24 shkollave të Rrjetit.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section news" id="news">
+  <div class="container">
+    <div class="section-heading">
+      <span>Lajme</span>
+      <h2>Lajmet dhe Aktivitetet</h2>
+      <p>Njoftimet, projektet dhe aktivitetet më të fundit të Rrjetit.</p>
+    </div>
+
+    <div class="news-grid">
+      <article class="news-card">
+        <span>Njoftim</span>
+        <h3>Portali zyrtar i Rrjetit është në ndërtim</h3>
+        <p>Faqja do të shërbejë si hapësirë zyrtare për publikimin e lajmeve, aktiviteteve dhe dokumenteve.</p>
+      </article>
+      <article class="news-card">
+        <span>Aktivitet</span>
+        <h3>Forcimi i përfaqësimit të nxënësve</h3>
+        <p>Rrjeti synon të nxisë bashkëpunimin ndërmjet shkollave dhe qeverive të nxënësve.</p>
+      </article>
+      <article class="news-card">
+        <span>Dokumente</span>
+        <h3>Seksioni i dokumenteve do të shtohet së shpejti</h3>
+        <p>Statuti, rregulloret dhe raportet do të publikohen në format të shkarkueshëm.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer" id="contact">
+  <div class="container footer-grid">
+    <div>
+      <img src="images/logo.png" alt="Logo">
+      <h3>Rrjeti i Qeverive të Nxënësve – ZVA Kamëz</h3>
+      <p>Një rrjet për lidershipin, përfaqësimin dhe qytetarinë aktive të nxënësve.</p>
+    </div>
+
+    <div>
+      <h4>Kontakt</h4>
+      <p>Email: krenardunga@presidencazvakamez.com</p>
+      <p>ZVA Kamëz, Shqipëri</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Presidenca e Rrjetit të Qeverive të Nxënësve – ZVA Kamëz.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
